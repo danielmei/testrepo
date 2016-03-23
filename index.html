@@ -10,7 +10,14 @@
   </style>
 </head>
 <body>
+  <script type="text/javascript">
+    function myf(){
+      var text = document.getElementById('para').style.fontSize = "2em";
+    }
+  </script>
   <h2>Dies ist eine Überschrift</h2>
   <div>Das ist ein Div-Element mit 24px.</div>
+  <button onclick="myf();">Klicke hier</button>
+  <p id="para">Paragraph</p>
 </body>
 </html>
